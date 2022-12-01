@@ -121,15 +121,3 @@ def main():
 
 if __name__ == '__main__':
   main()
-
-!streamlit run streamlit_app.py & npx localtunnel --port 8501
-
-pip install PyPDF2
-
-pip install stanza
-
-pip install streamlit
-
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_bc5cdr_md-0.5.1.tar.gz
-
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_bionlp13cg_md-0.5.1.tar.gz
